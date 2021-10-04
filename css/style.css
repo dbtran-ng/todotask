@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #FEE9F0;
+  background-color: #d8e5e0;
   font-size: 16px;
 }
 
@@ -83,7 +83,7 @@ body {
 .filter-btn span i{
   width: 40px;
   height: 40px;
-  background: #FA396B;
+  background: #25b99a;
   display: block;
   position: absolute;
   right: 25px;
@@ -117,7 +117,7 @@ span.toggle-btn:hover{
   height: 150px;
     width: 150px;
     content: '';
-    background-color: #FA396B;
+    background-color: #25b99a;
     position: absolute;
     top: -86px;
     right: -35px;
@@ -127,7 +127,7 @@ span.toggle-btn:hover{
 }
 
 .filter-btn.open span.toggle-btn i{
-  background-color: #DE3963;
+  background-color: #25b99a;
 }
 
 .filter-btn .fa-times {
@@ -184,7 +184,7 @@ span.toggle-btn:hover{
     font-weight: 400;
     text-indent: 18px;
     /* padding: 0 60px 0 0; */
-    background: rgba(222, 57, 99, 0.6);
+    background: rgba(57, 222, 167, 0.6);
     /* border-radius: 3px; */
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -207,7 +207,7 @@ span.toggle-btn:hover{
   right: 0;
   /* width: 40px;
   height: 40px; */
-  box-shadow: 0 0 0 2px rgba(222, 57, 99);
+  box-shadow: 0 0 0 2px rgb(57, 222, 145);
   cursor: pointer;
   outline: none;
 }
@@ -217,7 +217,7 @@ span.toggle-btn:hover{
   border-radius: 25px;
   background: #fff;
   line-height: 40px;
-  color: #DE3963;
+  color: #25b99a;
 
 }
 
@@ -296,7 +296,7 @@ ul.todo li .buttons .remove{
   color: #aaa;
 }
 ul.todo li .buttons .remove:hover{
-  color: #FA396B;
+  color: #25b99a;
 }
 
 ul.todo li .buttons .complete{
